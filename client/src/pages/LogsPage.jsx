@@ -19,13 +19,13 @@ function LogsPage() {
     };
 
     return (
-        <div className="container mx-auto mt-10 p-5">
+        <div className="container mx-auto mt-10 p-5 bg-gray-800 text-white rounded-lg">
             <h1 className="text-3xl font-bold text-center mb-6">Action Logs</h1>
-            <div className="bg-white shadow-md rounded-lg p-4">
+            <div className="bg-gray-900 shadow-md rounded-lg p-4">
                 {logs.length > 0 ? (
                     <ul className="list-disc space-y-2 pl-5">
                         {logs.map((log, index) => (
-                            <li key={index} className="text-gray-700">{log}</li>
+                            <li key={index} className="text-gray-400">{log}</li>
                         ))}
                     </ul>
                 ) : (

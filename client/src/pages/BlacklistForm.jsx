@@ -41,15 +41,15 @@ function BlacklistForm() {
     };
 
     return (
-        <div className="max-w-md mx-auto my-10 bg-white p-8 border border-gray-200 rounded-lg shadow-lg">
-            <h1 className="text-xl font-bold text-center mb-4">Blacklist IP Address</h1>
+        <div className="max-w-md mx-auto my-10 bg-gray-800 p-8 border border-gray-700 rounded-lg shadow-lg">
+            <h1 className="text-xl font-bold text-center mb-4 text-white">Blacklist IP Address</h1>
             <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
                 <input
                     type="text"
                     value={ip}
                     onChange={(e) => setIp(e.target.value)}
                     placeholder="Enter IP to blacklist"
-                    className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full p-2 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-gray-700 text-white"
                 />
                 <div className="flex justify-between gap-3">
                     <button onClick={() => handleRequest('http://localhost:3001/blacklist', 'post', { ip })}
@@ -67,7 +67,7 @@ function BlacklistForm() {
                 </div>
                 
                 {message && (
-                    <p className={`text-center mt-4 p-2 rounded-md ${message.type === 'error' ? 'bg-red-200 text-red-700' : 'bg-green-200 text-green-700'}`}>
+                    <p className={`text-center mt-4 p-2 rounded-md ${message.type === 'error' ? 'bg-red-500 text-white' : 'bg-green-500 text-white'}`}>
                         {message.text}
                     </p>
                 )}
