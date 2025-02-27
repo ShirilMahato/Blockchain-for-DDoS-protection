@@ -23,16 +23,6 @@ function App() {
               <Home />
             </ProtectedRoute>
           } />
-          {/* <Route path="/logs" element={
-            <ProtectedRoute>
-              <LogsPage />
-            </ProtectedRoute>
-          } />
-          <Route path="/ips" element={
-            <ProtectedRoute>
-              <BlacklistedIPsPage />
-            </ProtectedRoute>
-          } /> */}
         </Routes>
       </Router>
     </AuthProvider>

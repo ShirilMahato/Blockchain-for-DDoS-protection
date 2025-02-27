@@ -36,3 +36,47 @@
 2025-01-16 12:18:55 - Blocked IP: 1.1.1.1
 2025-01-16 12:18:55 - Invalid IP address detected: 
 2025-01-16 12:18:55 - Firewall rules updated successfully.
+2025-02-14 13:16:05 - Updating firewall rules.
+2025-02-14 13:16:05 - Current iptables entries being processed: 
+2025-02-14 13:16:05 - Blocked IP: 2.2.2.2
+2025-02-14 13:16:05 - Blocked IP: 2.2.2.3
+2025-02-14 13:16:05 - Invalid IP address detected: 
+2025-02-14 13:16:05 - Firewall rules updated successfully.
+2025-02-27 17:36:00 - Updating firewall rules.
+2025-02-27 17:36:00 - Current iptables entries being processed: 
+2025-02-27 17:36:00 - Blocked IP: 1.1.1.1
+2025-02-27 17:36:00 - Blocked IP: 1.1.1.2
+2025-02-27 17:36:00 - Blocked IP: 2.2.2.2
+2025-02-27 17:36:00 - Blocked IP: 192.168.1.141
+2025-02-27 17:36:00 - Invalid IP address detected: 
+2025-02-27 17:36:00 - Firewall rules updated successfully.
+2025-02-27 17:41:52 - Updating firewall rules.
+2025-02-27 17:41:52 - Current iptables entries being processed: --
+--
+--
+--
+2025-02-27 17:41:52 - Invalid IP address detected: --
+2025-02-27 17:41:52 - Invalid IP address detected: --
+2025-02-27 17:41:52 - Invalid IP address detected: --
+2025-02-27 17:41:52 - Invalid IP address detected: --
+2025-02-27 17:41:52 - Firewall rules updated successfully.
+2025-02-27 17:45:17 - Updating firewall rules.
+2025-02-27 17:45:17 - Current iptables entries being processed: --
+--
+--
+2025-02-27 17:45:17 - Blocked IP: 192.168.1.94
+2025-02-27 17:45:17 - Invalid IP address detected: --
+2025-02-27 17:45:17 - Invalid IP address detected: --
+2025-02-27 17:45:17 - Invalid IP address detected: --
+2025-02-27 17:45:17 - Firewall rules updated successfully.
+2025-02-27 20:55:36 - Updating firewall rules.
+2025-02-27 20:55:36 - Current iptables entries being processed: 
+2025-02-27 20:55:36 - Blocked IP: 1.1.1.1
+2025-02-27 20:55:36 - Blocked IP: 1.1.1.2
+2025-02-27 20:55:36 - Blocked IP: 2.2.2.2
+2025-02-27 20:55:36 - Blocked IP: 192.168.1.141
+2025-02-27 20:55:36 - Blocked IP: 192.168.254.241
+2025-02-27 20:55:36 - Blocked IP: 192.168.61.217
+2025-02-27 20:55:36 - Blocked IP: 192.168.61.84
+2025-02-27 20:55:36 - Invalid IP address detected: 
+2025-02-27 20:55:36 - Firewall rules updated successfully.

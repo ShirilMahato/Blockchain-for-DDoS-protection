@@ -4,7 +4,7 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [loading, setLoading] = useState(true); // state to manage initial loading
+    const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
         const token = localStorage.getItem('token');
@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     if (loading) {
-        return <div>Loading...</div>; // Or any other loading indicator
+        return <div>Loading...</div>; 
     }
 
     return (

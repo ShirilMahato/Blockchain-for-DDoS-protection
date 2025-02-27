@@ -5,9 +5,9 @@ import { useAuth } from './AuthContext';
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useAuth();
 
-  // Optional: Consider handling the loading state here as well, similar to AuthProvider
+
   if (typeof isAuthenticated === 'undefined') {
-    return <div>Loading...</div>; // Or handle it based on your loading state management strategy
+    return <div>Loading...</div>; 
   }
 
   if (!isAuthenticated) {

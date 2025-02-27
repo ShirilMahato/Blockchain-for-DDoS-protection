@@ -4,7 +4,6 @@ function LogsPage() {
     const [logs, setLogs] = useState([]);
 
     useEffect(() => {
-        // Fetch logs from an API instead of localStorage
         fetchLogs();
     }, []);
 

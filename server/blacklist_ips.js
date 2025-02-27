@@ -21,9 +21,9 @@ function readDdosIps() {
     });
 }
 
-// Function to blacklist each IP
+// Fun￼ction to blacklist each IP
 async function blacklistIps(ips) {
-    const baseUrl = 'http://localhost:3001'; // The base URL of your running Express server
+    const baseUrl = 'http://localhost:3001'; 
     for (const ip of ips) {
         try {
             const response = await axios.post(`${baseUrl}/blacklist`, { ip });
